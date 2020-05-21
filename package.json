@@ -1,7 +1,7 @@
 {
   "name": "webcomponents-base",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.html",
   "license": "MIT",
   "scripts": {
     "build": "vue-cli-service build --dest dist --target wc-async --name base 'components/*.vue'"
