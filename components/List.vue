@@ -16,7 +16,7 @@ export default {
         Items(){
             // Hacky solution for array and object props
             let items = this.$parent.$options.customElement.items || this.items
-            if(items[0] && items[0] == '[') return JSON.parse(items.join(''))
+            if(items[0] && items[0] == '[') return JSON.parse(items)
 
             return items
         }
