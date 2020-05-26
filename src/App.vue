@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <standard-link>Bla</standard-link>
+        
     </div>
 </template>
 
