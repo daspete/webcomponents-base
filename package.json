@@ -4,7 +4,8 @@
   "main": "dist/index.html",
   "license": "MIT",
   "scripts": {
-    "build": "vue-cli-service build --dest dist --target wc-async --name base 'components/*.vue'"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --dest dist --target wc-async --name base 'src/components/*.vue'"    
   },
   "dependencies": {
     "@vue/cli-service": "^4.3.1",
