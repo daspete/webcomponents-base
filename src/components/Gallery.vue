@@ -13,6 +13,7 @@
 <script>
 export default {
     props: {
+        // must be Array or String, cause web components only have strings for properties
         items: { type: Array | String, default: () => { return [] } }
     },
 
