@@ -37,5 +37,8 @@ function enableShadowCss(config) {
 module.exports = {
     chainWebpack: config => {
         enableShadowCss(config);
+    },
+    devServer: {
+        disableHostCheck: true
     }
 }
