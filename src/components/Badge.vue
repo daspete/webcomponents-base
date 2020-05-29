@@ -1,6 +1,6 @@
 <template>
     <div :class="BadgeClasses" :style="BadgeStyles">
-        <slot>Default badge text</slot>
+        <slot>i am a wonderful Default badge text</slot>
     </div>
 </template>
 
